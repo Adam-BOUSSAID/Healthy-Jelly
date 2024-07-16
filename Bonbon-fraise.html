@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>ohmyfood</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="app.js" defer></script> <!-- Ajout du script JavaScript -->
+</head>
+
+<body>
+    <header>
+        <div class="container-logo">
+            <a href="index.html"><i class="fa-solid fa-arrow-left fa-xl"></i></a>
+            <img class="logo logo-recette" src="images/logo/logo.png" alt="logo">
+        </div>
+    </header>
+
+    <main class="container-menu">
+        <div class="menu-title">
+            <h1 class="main-title">Bonbons Caramel</h1>
+            <div class="coeur coeur-big">
+                <i class="fa-solid fa-heart"></i>
+            </div>
+        </div>
+        <h2 class="type">Ingrédients</h2>
+        <p class="ligne"></p>
+        <div class="align-menu">
+            <article class="card" id="arome">
+                <div class="text-card">
+                    <h3 class="card-title">Arôme</h3>
+                    <h2>Fraise</h2>
+                </div>
+            </article>
+            <article class="card" id="gelifiant">
+                <div class="text-card">
+                    <h3 class="card-title">Gélifiant</h3>
+                    <h2>Agar-Agar</h2>
+                </div>
+            </article>
+            <article class="card" id="whey">
+                <div class="text-card">
+                    <h3 class="card-title">Whey</h3>
+                    <h2>fournisseur</h2>
+                </div>
+            </article>
+            <article class="card" id="ppDePp">
+                <div class="text-card">
+                    <h3 class="card-title">Extrait de pépin de pamplemousse</h3>
+                    <h2>fournisseur</h2>
+                </div>
+            </article>
+            <article class="card" id="stevia">
+                <div class="text-card">
+                    <h3 class="card-title">Stévia</h3>
+                    <h2>fournisseur</h2>
+                </div>
+            </article>
+        </div>
+
+        <div class="commander">
+            <button class="purple-button" onclick="ajouterAuPanier()">Commander</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <img src="images/logo/logo.png" alt="logo">
+        <div class="foot">
+            <div class="foot-bottom"><i class="fa-solid fa-utensils"></i><a href="">Proposez un bonbon</a></div>
+            <div><i class="fa-solid fa-handshake-angle"></i><a
+                    href="mailto:contact@OMF.fr?subject=demande-pour-devenir-partenaire">Devenir
+                    partenaire</a></div>
+            <a href="">Mentions légales</a>
+            <a href="">Contact</a>
+        </div>
+    </footer>
+</body>
+
+</html>
